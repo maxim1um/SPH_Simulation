@@ -53,7 +53,7 @@ bool IWindow::Initialize()
 	return true;
 }
 
-void IWindow::Run()
+void IWindow::Tick()
 {
 	while (!glfwWindowShouldClose(m_window))
     {

@@ -17,9 +17,9 @@ bool WindowManager::Initialize()
 	return m_window->Initialize();
 }
 
-void WindowManager::Run()
+void WindowManager::Tick()
 {
-	m_window->Run();
+	m_window->Tick();
 }
 
 void WindowManager::Finalize()

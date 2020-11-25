@@ -13,7 +13,7 @@ public:
 	WindowManager(WindowManager&&) = delete;
 
 	bool Initialize();
-	void Run();
+	void Tick();
 	void Finalize();
 private:
 	std::string m_windowName;
